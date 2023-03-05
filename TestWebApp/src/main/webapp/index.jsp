@@ -1,9 +1,6 @@
-<%@ page import="java.util.Date" %>
 <html>
 <body>
-<h2>Hello World!</h2>
-<%
-    new Date().getTime();
-%>
+<h2>Hello Areeb!</h2>
+Today's date: <%= (new java.util.Date()).toLocaleString()%>
 </body>
 </html>
